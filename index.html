@@ -11,232 +11,235 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 
 <body>
 
 
-    <div class="container-fluid">
+    <div class="container">
+        <form class="form-control">
+            <div class="row">
 
-        <div class="row">
-            <h1>Payment Forn Example</h1>
-
-        </div>
-        <div class="row" style="background-color:tomato;">
-            <div class="col">
-                <h4>Some Fields are missing</h4>
+                <div class="col-sm-12 border border-1">
+                    <h2>Payment Forn Example</h2>
+                </div>
+                
 
             </div>
+            <div class="row">
+             
 
+                <div class="col-sm-12 border border-1" style="background-color:tomato;">
+                    
+                    <h4 style="color: firebrick;">Some Fields are missing</h4>
 
-        </div>
-        <div class="row" style="align-items: flex-start;">
+                </div>
+              
 
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row" style="width: 500px;">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">Card #</label>
-                            <input type="number" class="form-control" id="validationCustom01"
-                                placeholder="xxxxxxxxxxxxx" value="Mark" required>
-                            <div class="valid-feedback">
-                                Looks good!
+            </div>
+            <div class="row" style="align-items: flex-start;">
+
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">Card #</label>
+                                <input type="number" class="form-control" id="validationCustom01"
+                                    placeholder="xxxxxxxxxxxxx" value="Mark" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-            </div>
+                </div>
 
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">CVC #</label>
-                            <input type="number" class="form-control" id="validationCustom01" placeholder="0000"
-                                value="Mark" required>
-                            <div class="valid-feedback">
-                                Looks good!
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">CVC #</label>
+                                <input type="number" class="form-control" id="validationCustom01" placeholder="0000"
+                                    value="Mark" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-            </div>
+                </div>
 
-            <div class="col-4 col-sm-4">
+                <div class="col-sm-4">
 
-                <form class="needs-validation" novalidate>
-                    <div class="form-row">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
 
-                        <div class="col-sm-4">
-                            $
-                            <label for="validationCustom01">Amount</label>
-                            <input type="number" class="form-control" id="validationCustom01" placeholder="Amount"
-                                value="Mark" required style="width: 100PX;">
-                            <div class="valid-feedback">
-                                Looks good!
+                            <div class="col-sm-4">
+                                $
+                                <label for="validationCustom01">Amount</label>
+                                <input type="number" class="form-control" id="validationCustom01" placeholder="Amount"
+                                    value="Mark" required style="width: 100PX;">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
                             </div>
                         </div>
-                    </div>
 
 
-            </div>
-
-
-        </div>
-
-        <div class="row">
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row" style="width: 500px;">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">Firts Name</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
-
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row" style="width: 500px;">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">Last Name</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
-
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row" style="width: 500px;">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">City</label>
-                            <input type="number" class="form-control" id="validationCustom01"
-                                placeholder="xxxxxxxxxxxxx" value="Mark" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                    </div>
-
-
-            </div>
-
-            <div class="col-3 col-sm-3">
-
-                <div class="form-group col-md-6">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>chile</option>
-                        <option>españa</option>
-                    </select>
                 </div>
 
 
             </div>
 
-            <div class="col-4 col-sm-4">
-                <form class="needs-validation" novalidate>
-                    <div class="form-row" style="width: 500px;">
-                        <div class="col-md-4 mb-3">
-                            <label for="validationCustom01">Postal Code</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
-                                required style="width: 100PX;">
-                            <div class="valid-feedback">
-                                Looks good!
+            <div class="row">
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">Firts Name</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
                             </div>
                         </div>
+
+
+                </div>
+
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">Last Name</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">City</label>
+                                <input type="number" class="form-control" id="validationCustom01"
+                                    placeholder="xxxxxxxxxxxxx" value="Mark" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <div class="form-group col-md-6">
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>chile</option>
+                            <option>españa</option>
+                        </select>
                     </div>
 
 
+                </div>
+
+                <div class="col-sm-4">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row" style="width: 500px;">
+                            <div class="col-md-4 mb-3">
+                                <label for="validationCustom01">Postal Code</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="" value=""
+                                    required style="width: 100PX;">
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+
+
+
             </div>
 
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <h4>We Aceept:</h4>
+                    <div class="bg-secondary">
+
+                        
+                   
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-visa"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-mastercard"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                            value="option3">
+                        <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-amex"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                            value="option3">
+                        <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-diners-club"></i></label>
+                    </div>
+
+                </div>
+                </div>
+
+                <div class="col-sm-8">
+
+                    <h5>Message</h5>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea"></label>
+                      </div>
+                    <p>Any notes here.</p>
+                </div>
+
+            </div>
+
+            <div class="row border border-1">
+                <div class="col-sm-7">
+
+                </div>
+
+                <div class="col-sm-5 ">
+                    <button type="button" class="btn btn-secondary" style="margin-bottom: 5px;">Cancel</button>
+                    <button type="button" class="btn btn-primary" style="margin-bottom: 5px;">Send</button>
+                </div>
 
 
+            </div>  
         </div>
-
-        <div class="row">
-
-            <div class="col-4 col-sm-4" style="background-color: slategrey;height: 70px;">
-                <h4>We Aceept:</h4>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                        value="option1">
-                    <label class="form-check-label" for="inlineRadio1"><i class="fab fa-cc-visa"></i></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                        value="option2">
-                    <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-mastercard"></i></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                        value="option3">
-                    <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-amex"></i></label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                        value="option3">
-                    <label class="form-check-label" for="inlineRadio3"><i class="fab fa-cc-diners-club"></i></label>
-                </div>
-
-
-            </div>
-
-            <div class="col-8 col-sm-8" style="padding-left: 200px;">
-
-                <h5>Message</h5>
-                <textarea name="" id="" cols="60" rows="5"></textarea>
-                <p>any notes here</p>
-            </div>
-
-        </div>
-
-        <div class="row" style="float: right;">
-            <div class="col col-sm-12">
-                <button type="button" class="btn btn-secondary">Cancel</button>
-                <button type="button" class="btn btn-primary">Send</button>
-
-
-
-            </div>
-
-
-
-
-        </div>
-
-   
-
-
-
-
-
-
-
-
-    </div>
-
+    </form>
 
 
 
